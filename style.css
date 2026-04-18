@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+  min-height: 111h;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(23, 41, 38);
+
+}
+
+
+.calcultor {
+    margin: 100px;
+    border: 3px solid;
+    border-radius: 9px;
+    padding: 5px;
+    background-color: rgb(206, 206, 206);
+}
+
+input[type="text"] {
+ width: 310px;
+ padding: 10px;
+}
+
+.buttons {
+    width: 299px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    padding: 18px;
+
+
+}
+
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
